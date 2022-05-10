@@ -23,3 +23,13 @@ function enableButton() {
   }
 }
 check.addEventListener('click', enableButton);
+
+// função que conta o números de caracteres no textarea
+// Referência - Contador de caracteres em uma textarea com JavaScript: https://www.youtube.com/watch?v=X-LVkU95jLU&ab_channel=dcode
+
+function contaCaracteres() {
+  const contador = document.getElementById('counter');
+  const textArea = document.getElementById('textarea');
+  contador.innerText = `${500 - textArea.value.length}`;
+}
+document.getElementById('textarea').addEventListener('input', contaCaracteres);

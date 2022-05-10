@@ -49,7 +49,7 @@
 .main {
   display: flex;
   justify-content: space-around;
-  background-color: rgba(255, 255, 255, 0.959);
+  background-color: rgb (233, 233, 233);
   align-items: center;
 }
 
@@ -60,7 +60,9 @@
 }
 
 h2 {
+  font-weight: 900;
   padding-top: 50px;
+  align-self: center;
 }
 
 #trybewarts-forms-logo {
@@ -73,8 +75,8 @@ h2 {
   display: flex;
   margin-bottom: 5px;
   border: 1px solid grey;
-  border-radius: 10px;
-  padding: 10px;
+  border-radius: 12px;
+  padding: 12px;
   width: 300px;
 }
 
@@ -82,8 +84,8 @@ h2 {
   display: flex;
   margin-bottom: 5px;
   border: 1px solid grey;
-  border-radius: 10px;
-  padding: 10px;
+  border-radius: 12px;
+  padding: 12px;
   width: 300px;
 }
 
@@ -92,7 +94,7 @@ h2 {
   margin-bottom: 5px;
   border: 1px solid grey;
   border-radius: 10px;
-  padding: 10px;
+  padding: 12px;
   width: 300px;
 }
 
@@ -101,7 +103,7 @@ h2 {
   margin-bottom: 5px;
   border: 2px solid grey;
   border-radius: 10px;
-  padding: 10px;
+  padding: 11px;
   width: 200px;
 }
 
@@ -109,7 +111,8 @@ h2 {
   display: flex;
   flex-flow: row wrap;
   align-items: center;
-  justify-content: space-between;
+  gap: 10px;
+  justify-content: flex-start;
   padding-top: 20px;
 }
 
@@ -130,16 +133,55 @@ h2 {
   flex-basis: 40%;
 }
 
+
+#frontend {
+  margin-top: 10px;
+}
+
+#backend {
+  margin-top: 10px;
+}
+
+#fullstack {
+  margin-top: 10px;
+}
+
 #content {
-  padding: 10px;
+  margin-top: 10px;
   flex-basis: 50%;
+
+}
+
+#hofs {
+  margin-top: 15px;
+}
+
+#jest {
+  margin-left: 15px;
+}
+
+#promises {
+  margin-left: 15px;
+}
+
+#react {
+  margin-top: 15px;
+}
+
+#sql {
+  margin-left: 15px;
+}
+
+#phyton {
+  margin-left: 20px;
+
 }
 
 #rate {
   padding: 10px;
   width: 675px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 #comment {
@@ -151,10 +193,14 @@ h2 {
   width: 675px;
 }
 
-#textbox {
+#textarea {
   width: 650px;
   height: 100px;
   border-radius: 10px;
+}
+
+#agreement {
+  margin-right: 10px;
 }
 
 #submit-btn {

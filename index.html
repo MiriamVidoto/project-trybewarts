@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TRYBEWARTS</title>
     <link rel="stylesheet" href="style.css">
-</head>
+    </head>
 <body>
     
     <header class="header">
@@ -25,14 +25,13 @@
                 <input id="input-name" type="text" name="Nome" placeholder="Nome">
                 <input id="input-lastname" type="text" name="Sobrenome" placeholder="Sobrenome">
                 <input id="input-email" type="email" name="email" placeholder="Email">
-                <label for="">Casa:
-                    <select id="house" name="Casa">
-                        <option id="gitnoria-house" value="Gitnória">Gitnória</option>
-                        <option id="reactpuff-house" value="Reactpuff">Reactpuff</option>
-                        <option id="corvinode-house" value="Corvinode">Corvinode</option>
-                        <option id="pytherina-house" value="Pytherina">Pytherina</option>
-                    </select>
-                </label>
+                <label for="">Casa:</label>
+                <select id="house" name="Casa">
+                    <option id="gitnoria-house" value="Gitnória">Gitnória</option>
+                    <option id="reactpuff-house" value="Reactpuff">Reactpuff</option>
+                    <option id="corvinode-house" value="Corvinode">Corvinode</option>
+                    <option id="pytherina-house" value="Pytherina">Pytherina</option>
+                </select>
             </div>
             <hr>
             <div class="container-2">
@@ -56,8 +55,8 @@
             <div class="container-3">
                 <div id="rate">
                     <label for="rate" id="label-rate">Como você avalia a Trybewarts?</label>
-                    <label for="1"><input type="radio" id="1" name="rate" value="1"></label>
-                    <label for="2">1<input type="radio" id="2" name="rate" value="2">2</label>
+                    <label for="1"><input type="radio" id="1" name="rate" value="1">1</label>
+                    <label for="2"><input type="radio" id="2" name="rate" value="2">2</label>
                     <label for="3"><input type="radio" id="3" name="rate" value="3">3</label>
                     <label for="4"><input type="radio" id="4" name="rate" value="4">4</label>
                     <label for="5"><input type="radio" id="5" name="rate" value="5">5</label>
@@ -69,8 +68,11 @@
                 </div>
                 <div id="comment">
                     <label class="textarea">Deixe seu comentário:</label><br>
-                    <textarea name="comment" cols="30" rows="10" maxlength="500" id="textbox"></textarea>
+                    <textarea name="comment" cols="30" rows="10" maxlength="500" id="textarea"></textarea>
                 </div>
+                <div id="counter">500</div>
+
+            
                 <div id="check">
                     <label for="agreement" id="label-infos"><input type="checkbox" name="agreement" id="agreement">Você concorda com o uso das informações acima?</label>
                     
