@@ -40,6 +40,7 @@
 }
 
 .trybewarts-login button {
+  color: white;
   background-color: rgba(116, 26, 219, 0.637);
   padding: 8px;
   width : 150px;
